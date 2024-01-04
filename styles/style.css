@@ -1,3 +1,51 @@
-h1{
-background-color: cadetblue;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url("../images/cow.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    color : azure;
+    font-size : 100px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+    font-family : cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.article , #cow-type{
+  width : 80%;
+  /* margin-left: auto;
+  margin-right : auto;
+  margin-top  : 60px;
+  margin-bottom : 60px; */
+   margin : 60px auto;
+   background-color: aquamarine;
+   padding  : 60px;
+   border-width: 15px;
+   border-style: solid;
+   border-color: yellow;
+}
+.article h2{
+  font-size: 40px;
+  text-align: center;
+  border-bottom : 5px solid yellow;
+  padding-bottom : 30px;
+  margin-bottom : 60px
+}
+.article p{
+    font-size: 18px;
+    line-height: 2em;
+}
+.article p .imp{
+  font-size: 2em;
+  background-color: yellow;
+  width: 600px;
 }
